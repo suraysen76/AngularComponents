@@ -1,0 +1,25 @@
+
+
+<table border='1'>
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Branch</th>
+      <th scope="col">Mobile</th>
+       <th scope="col">Gender</th>
+      <th scope="col">Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let itm of students">
+        <td ><span>{{itm.getTitle(itm.getGender())}}. </span> {{itm.getName()}} </td>
+        <td> {{itm.getBranch()}} </td>
+        <td> {{itm.getMobile()}} </td>
+        <td  [ngStyle]="{'background-color': itm.getGenderColor(itm.getGender())}"> {{itm.getGender()}} </td>
+        <td> {{itm.getAge()}} </td>
+    </tr>
+  </tbody>
+</table>
+
+
+Yay, student component works!
