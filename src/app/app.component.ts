@@ -6,9 +6,5 @@ import { StudentComponent } from './student/student.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-  title='AngularComponents Main Component';
-  pageHeader = ' Student Details';
- 
-  
+export class AppComponent {  
 }
