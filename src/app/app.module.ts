@@ -7,13 +7,16 @@ import { StudentComponent } from './student/student.component';
 import { ParentCompComponent } from './parent-comp/parent-comp.component';
 import { ChildCompComponent } from './child-comp/child-comp.component';
 import { FormsModule } from '@angular/forms';
+import { FormCompComponent } from './form-comp/form-comp.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentComponent,
     ParentCompComponent,
-    ChildCompComponent
+    ChildCompComponent,
+    FormCompComponent
   ],
   imports: [
     BrowserModule,

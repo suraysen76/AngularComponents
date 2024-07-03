@@ -1,9 +1,11 @@
-export class StudentModel {
-  private Name: string;
-  private Branch: string;
-  private Mobile: number;
-  private Gender: string;
-  private Age: number;
+import { IStudent } from '../Interfaces/istudent.model';
+
+export class StudentModel implements IStudent {
+  public Name: string;
+  public Branch: string;
+  public Mobile: number;
+  public Gender: string;
+  public Age: number;
 
  
 

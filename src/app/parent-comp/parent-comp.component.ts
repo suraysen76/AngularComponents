@@ -9,7 +9,15 @@ export class ParentCompComponent implements OnInit {
   messageTextInParent="";
   constructor(){}
 
-  ngOnInit(){
-    
+  ngOnInit(){}
+
+  clickEvent() {
+      if (this.messageTextInParent!="")
+        alert("Messgae is " + this.messageTextInParent);
+      else
+        alert("No Message");
+
   }
+    
+  
 }

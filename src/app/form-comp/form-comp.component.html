@@ -1,0 +1,13 @@
+    <h1>Form Component</h1>
+
+
+<h2>Login Form</h2>
+
+<form #myform="ngForm">
+  <input  class="input" type="text" id="userName" name="userName" #userName placeholder="Your user Name" />
+
+  <input class="input" type="password" name="passwprd" placeholder="Your password" ngModel />
+ 
+<button class="button" type="button" (click)="setValue(userName.value)">Login</button>
+
+</form>

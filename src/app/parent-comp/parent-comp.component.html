@@ -1,6 +1,16 @@
-<div>
+<div class="bgRed">
     <h1>Parent Component</h1>
     <input type="text" [(ngModel)] ="messageTextInParent">
+
+<br/>
+<button (click)="clickEvent()">Click Me</button>
 </div>
+<div class="bgSilver" >
 <app-child-comp [messagetext]=messageTextInParent>
 </app-child-comp>
+</div>
+<br/>
+<div class="bgWwhite">
+<app-student>
+</app-student>
+</div>
