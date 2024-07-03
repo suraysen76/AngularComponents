@@ -25,3 +25,7 @@ form * {
     width: 250px;
 
   }
+
+  .bgWhite{
+    background-color: rgb(106, 128, 8);
+}
