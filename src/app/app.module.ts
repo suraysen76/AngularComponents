@@ -8,6 +8,7 @@ import { ParentCompComponent } from './parent-comp/parent-comp.component';
 import { ChildCompComponent } from './child-comp/child-comp.component';
 import { FormsModule } from '@angular/forms';
 import { FormCompComponent } from './form-comp/form-comp.component';
+import { DBCompComponent } from './dbcomp/dbcomp.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FormCompComponent } from './form-comp/form-comp.component';
     StudentComponent,
     ParentCompComponent,
     ChildCompComponent,
-    FormCompComponent
+    FormCompComponent,
+    DBCompComponent
   ],
   imports: [
     BrowserModule,
